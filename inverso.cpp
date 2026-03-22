@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main () {
+    int sequencia[10];
+
+    for (int i = 0; i < 10; i++) {
+        cin >> sequencia[i];
+    }
+    for (int i = 9; i >= 0; i--) {
+        cout << sequencia[i] << endl;
+    }
+
+    return 0;
+}
