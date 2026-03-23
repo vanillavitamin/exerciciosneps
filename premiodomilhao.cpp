@@ -11,13 +11,11 @@ int main(){
     for (int i = 0; i < N; i++){
         cin >> A;
         total += A;
-        if(soma >= 1000000){
-            dias = i;
+        if(total >= 1000000){
+            dias = i + 1;
             break;
-        }
-        
+        }   
     }
-    
     cout << dias;
     return 0;
 }
